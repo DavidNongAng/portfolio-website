@@ -11,7 +11,9 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div className="text-xl font-bold text-[#134074]">David Nong-Ang</div>
+          <Link href="/" className="text-xl font-bold text-[#134074] hover:text-[#13315C] transition-colors">
+              David Nong-Ang
+            </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="#about" className="text-[#13315C] hover:text-[#134074] transition-colors">
                 About

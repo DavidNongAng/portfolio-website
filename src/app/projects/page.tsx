@@ -52,14 +52,13 @@ export default function ProjectsPage() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <CardTitle className="text-[#134074] text-xl">Stonks</CardTitle>
-                  <Badge className="bg-[#134074] text-white">Main Contributor</Badge>
                 </div>
                 <CardDescription className="text-[#13315C] text-base">
                   Political Stock Trading Visualization Platform
                 </CardDescription>
                 <div className="flex items-center text-sm text-[#8DA9C4] mt-2">
                   <Calendar className="w-4 h-4 mr-1" />
-                  2024
+                  2025
                 </div>
               </CardHeader>
               <CardContent className="flex-grow flex flex-col">
@@ -100,7 +99,7 @@ export default function ProjectsPage() {
                     asChild
                     className="flex-1 bg-[#134074] hover:bg-[#134074]/90 text-white"
                   >
-                    <Link href="#" target="_blank">
+                    <Link href="https://main.d3mjnwrqvz2taq.amplifyapp.com/" target="_blank">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </Link>
@@ -172,7 +171,7 @@ export default function ProjectsPage() {
             </Card>
 
             {/* TaskFlow Project */}
-            <Card className="border-2 border-[#134074]/20 hover:border-[#134074]/40 transition-colors flex flex-col h-full max-w-lg mx-auto w-full opacity-75">
+            <Card className="border-2 border-[#134074]/20 hover:border-[#134074]/40 transition-colors flex flex-col h-full max-w-lg mx-auto w-full">
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <CardTitle className="text-[#134074] text-xl">TaskFlow</CardTitle>
@@ -210,9 +209,24 @@ export default function ProjectsPage() {
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Docker</Badge>
                 </div>
                 <div className="flex gap-3 mt-auto">
-                  <Button disabled className="flex-1 bg-gray-300 text-gray-500">
-                    <Github className="w-4 h-4 mr-2" />
-                    In Development
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="flex-1 border-[#134074] text-[#134074] hover:bg-[#134074] hover:text-white"
+                  >
+                    <Link href="https://github.com/DavidNongAng/TaskFlow" target="_blank">
+                      <Github className="w-4 h-4 mr-2" />
+                      View Code
+                    </Link>
+                  </Button>
+                  <Button
+                    asChild
+                    className="flex-1 bg-[#134074] hover:bg-[#134074]/90 text-white"
+                  >
+                    <Link href="https://main.d3mjnwrqvz2taq.amplifyapp.com/" target="_blank">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Live Demo
+                    </Link>
                   </Button>
                 </div>
               </CardContent>
