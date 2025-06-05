@@ -126,7 +126,7 @@ export default function ProjectsPage() {
               <CardContent className="flex-grow flex flex-col">
                 <p className="text-[#13315C] mb-6 flex-grow text-base leading-relaxed">
                   A comprehensive MERN stack web application designed specifically for students seeking internship opportunities. 
-                  Similar to LinkedIn's job search functionality but exclusively focused on internships. Integrates with the Adzuna API 
+                  Similar to LinkedIn&apos;s job search functionality but exclusively focused on internships. Integrates with the Adzuna API 
                   to fetch and filter job listings, enabling users to perform full CRUD operations on their saved listings.
                 </p>
                 <div className="mb-6">

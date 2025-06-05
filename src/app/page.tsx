@@ -71,7 +71,7 @@ export default function Portfolio() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#134074] mb-8 text-center">About Me</h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-[#13315C] leading-relaxed mb-6">
-              I'm a dedicated Computer Science student with a passion for software development and problem-solving. My
+              I&apos;m a dedicated Computer Science student with a passion for software development and problem-solving. My
               journey in technology has led me to explore various domains including web development, data analysis, and
               software engineering principles.
             </p>
@@ -271,7 +271,7 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#134074] mb-8">Get In Touch</h2>
           <p className="text-lg text-[#13315C] mb-8">
-            I'm always interested in new opportunities and collaborations. Feel free to reach out!
+            I&apos;m always interested in new opportunities and collaborations. Feel free to reach out!
           </p>
           <div className="flex justify-center space-x-6">
             <Button asChild size="lg" className="bg-[#134074] hover:bg-[#134074]/90 text-white">
