@@ -91,6 +91,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#134074] mb-12 text-center">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
             {/* Stonks Project */}
             <Card className="border-2 border-[#134074]/20 hover:border-[#134074]/40 transition-colors flex flex-col h-full">
               <CardHeader>
@@ -106,9 +107,9 @@ export default function Portfolio() {
                   real-time data refresh via AWS Lambda.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">AWS</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Next.js</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">TypeScript</Badge>
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">AWS</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Tailwind CSS</Badge>
                 </div>
                 <Button
@@ -124,28 +125,29 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            {/* ICantFindAnInternship Project */}
+            {/* VBTrack Project */}
             <Card className="border-2 border-[#134074]/20 hover:border-[#134074]/40 transition-colors flex flex-col h-full">
               <CardHeader>
-                <CardTitle className="text-[#134074]">ICantFindAnInternship</CardTitle>
-                <CardDescription className="text-[#13315C]">A job search and internship tracking application</CardDescription>
+                <CardTitle className="text-[#134074]">VBTrack</CardTitle>
+                <CardDescription className="text-[#13315C]">Competitive Volleyball Match Hub</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow flex flex-col">
                 <p className="text-[#13315C] mb-4 flex-grow">
-                  Built a platform to help students track internship applications and manage their job search process
-                  effectively.
+                  A MERN web application that tracks and visualizes global volleyball match data, 
+                  featuring web scraping, interactive dashboards, and real-time updates with AWS deployment.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Web Development</Badge>
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">JavaScript</Badge>
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Career Tools</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">MERN Stack</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">REST API</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Python Web Scraping</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">AWS</Badge>
                 </div>
                 <Button
                   asChild
                   variant="outline"
                   className="w-full border-[#134074] text-[#134074] hover:bg-[#134074] hover:text-white mt-auto"
                 >
-                  <Link href="https://github.com/DavidNongAng/ICantFindAnInternship" target="_blank">
+                  <Link href="https://github.com/DavidNongAng/VBTracks.git" target="_blank">
                     <Github className="w-4 h-4 mr-2" />
                     View Project
                   </Link>

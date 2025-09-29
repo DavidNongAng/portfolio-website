@@ -108,33 +108,33 @@ export default function ProjectsPage() {
               </CardContent>
             </Card>
 
-            {/* ICantFindAnInternship Project */}
+            {/* VBTrack Project */}
             <Card className="border-2 border-[#134074]/20 hover:border-[#134074]/40 transition-colors flex flex-col h-full max-w-lg mx-auto w-full">
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <CardTitle className="text-[#134074] text-xl">ICantFindAnInternship</CardTitle>
+                  <CardTitle className="text-[#134074] text-xl">VBTrack</CardTitle>
                 </div>
                 <CardDescription className="text-[#13315C] text-base">
-                  Full-Stack Internship Search Web Application
+                  Competitive Volleyball Match Hub
                 </CardDescription>
                 <div className="flex items-center text-sm text-[#8DA9C4] mt-2">
                   <Calendar className="w-4 h-4 mr-1" />
-                  2024
+                  2025
                 </div>
               </CardHeader>
               <CardContent className="flex-grow flex flex-col">
                 <p className="text-[#13315C] mb-6 flex-grow text-base leading-relaxed">
-                  A comprehensive MERN stack web application designed specifically for students seeking internship opportunities. 
-                  Similar to LinkedIn&apos;s job search functionality but exclusively focused on internships. Integrates with the Adzuna API 
-                  to fetch and filter job listings, enabling users to perform full CRUD operations on their saved listings.
+                  A full-stack MERN web application built to track and visualize competitive volleyball matches worldwide.
+                  Inspiration from VLR.gg (Valorant Esports Stats) but tailored for competitive volleyball, featuring interactive dashboards for match results, player stats, and rankings.
+                  Integrates Python web scraping and REST APIs for real-time updates, with automated deployment pipelines on AWS.
                 </p>
                 <div className="mb-6">
                   <h4 className="font-semibold text-[#134074] mb-3">Key Features:</h4>
                   <ul className="text-[#13315C] text-sm space-y-1 mb-4">
-                    <li>• Adzuna API integration for real-time job listings</li>
-                    <li>• User authentication with JWT tokens</li>
-                    <li>• CRUD operations for saved internship listings</li>
-                    <li>• Redux state management for consistent user sessions</li>
+                    <li>• Python web scraping integration for real-time volleyball match data</li>
+                    <li>• RESTful API for match stats and rankings</li>
+                    <li>• Interactive dashboards with filtering and search options</li>
+                    <li>• Automated AWS CI/CD deployment with GitHub Actions</li>
                   </ul>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -142,8 +142,8 @@ export default function ProjectsPage() {
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Express.js</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">React</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Node.js</Badge>
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Redux</Badge>
-                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">JWT</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">Python WebScraping</Badge>
+                  <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">REST API</Badge>
                   <Badge variant="secondary" className="bg-[#8DA9C4] text-[#0B2545]">AWS</Badge>
                 </div>
                 <div className="flex gap-3 mt-auto">
@@ -152,7 +152,7 @@ export default function ProjectsPage() {
                     variant="outline"
                     className="flex-1 border-[#134074] text-[#134074] hover:bg-[#134074] hover:text-white"
                   >
-                    <Link href="https://github.com/DavidNongAng/ICantFindAnInternship" target="_blank">
+                    <Link href="https://github.com/DavidNongAng/VBTracks.git" target="_blank">
                       <Github className="w-4 h-4 mr-2" />
                       View Code
                     </Link>
